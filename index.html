@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+    <title>Growly</title>
+  </head>
+  <body>
+    <header>
+      <h1>My courses</h1>
+      <form action="./search/" class="search-container">
+        <input type="text" id="search-input" placeholder="Search" />
+        <button id="search-toggle" type="submit">
+          <i class="fi fi-rr-search"></i>
+        </button>
+      </form>
+      <div>
+        <p><i class="fi fi-rr-bell"></i></p>
+        <img
+          src="./assets/person4.jpg"
+          alt="User profile photo"
+          class="profile"
+        />
+      </div>
+    </header>
+
+    <nav class="navbar">
+      <p class="brand">Growly</p>
+      <ul>
+        <li><i class="fi fi-rr-apps"></i> Home</li>
+        <li><i class="fi fi-rr-calendar"></i> Calendar</li>
+        <li><i class="fi fi-rr-bell"></i> Notification</li>
+        <li><i class="fi fi-rr-pencil"></i> Your Learning</li>
+        <li><i class="fi fi-rr-star"></i> Favourite</li>
+        <li><i class="fi fi-rr-settings"></i> Settings</li>
+      </ul>
+    </nav>
+
+    <section class="coursesList">
+      <ul>
+        <li>All</li>
+        <li>Advertising</li>
+        <li>Design</li>
+        <li>Marketing</li>
+        <li>Illustration</li>
+        <li>Brand</li>
+      </ul>
+    </section>
+
+    <section class="courseDescription">
+      <div class="courses-card">
+        <div class="courses">
+          <h2>Design</h2>
+          <h3>UX as Art</h3>
+          <p>
+            Master the principles of user experience through a creative
+            human-centered lens.
+          </p>
+        </div>
+
+        <div>
+          <h2>Illustration</h2>
+          <h3>From Line to Story</h3>
+          <p>
+            Develop storytelling through expressive linework and character
+            design.
+          </p>
+        </div>
+
+        <div>
+          <h2>Brand</h2>
+          <h3>Build It Strong</h3>
+          <p>
+            Build a unique and consistent brand identity from the ground up.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="myLessons">
+      <h2>My lessons</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Lesson</th>
+            <th>Teacher</th>
+            <th>Duration</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <img
+                src="./assets/lessons1.jpg"
+                alt="Color & Typography lesson"
+              />
+              Color & Typography in Design
+            </td>
+            <td>
+              <img
+                src="./assets/person1.jpg"
+                alt="Vanessa Douglas"
+                class="profile"
+              />
+              Vanessa Douglas
+            </td>
+            <td>32 min</td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="./assets/lessons1.jpg"
+                alt="Creative Advertising lesson"
+              />
+              Creative Advertising: From Concept to Execution
+            </td>
+            <td>
+              <img
+                src="./assets/person1.jpg"
+                alt="Aysha Hayes"
+                class="profile"
+              />
+              Aysha Hayes
+            </td>
+            <td>43 min</td>
+          </tr>
+          <tr>
+            <td>
+              <img src="./assets/lessons1.jpg" alt="Brand Identity lesson" />
+              Brand identity: Logo, Typeface, and Visual Style
+            </td>
+            <td>
+              <img
+                src="./assets/person1.jpg"
+                alt="Ilyas Lamb"
+                class="profile"
+              />
+              Ilyas Lamb
+            </td>
+            <td>17 min</td>
+          </tr>
+          <tr>
+            <td>
+              <img src="./assets/lessons1.jpg" alt="UX/UI lesson" />
+              UX/UI Design: How Brands Interact with Users
+            </td>
+            <td>
+              <img
+                src="./assets/person1.jpg"
+                alt="Kobi Potts"
+                class="profile"
+              />
+              Kobi Potts
+            </td>
+            <td>52 min</td>
+          </tr>
+          <tr>
+            <td>
+              <img src="./assets/lessons1.jpg" alt="Infographics lesson" />
+              Illustration and Infographics in Marketing Strategies
+            </td>
+            <td>
+              <img
+                src="./assets/person1.jpg"
+                alt="Vanessa Douglas"
+                class="profile"
+              />
+              Vanessa Douglas
+            </td>
+            <td>39 min</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="learningProcess">
+      <h2>Learning process</h2>
+      <p>View all lessons</p>
+      <div>
+        <label for="ux-progress">UX/UI Design</label>
+        <label for="ux-progress">75%</label>
+        <progress id="ux-progress" max="100" value="75">75%</progress>
+      </div>
+      <div>
+        <label for="brand-progress">Brand</label>
+        <label for="brand-progress">60%</label>
+        <progress id="brand-progress" max="100" value="60">60%</progress>
+      </div>
+      <div>
+        <label for="illustration-progress">Illustration</label>
+        <label for="illustration-progress">50%</label>
+        <progress id="illustration-progress" max="100" value="50">50%</progress>
+      </div>
+    </section>
+
+    <section class="moreOptions">
+      <h2>You might like it</h2>
+      <p>See all</p>
+      <div>
+        <h2>Design</h2>
+        <h3>Motion Design</h3>
+        <p>
+          The motion design course will help you master animation and graphics
+          to create vibrant, professional video content.
+        </p>
+      </div>
+      <div>
+        <p>They are already learning</p>
+      </div>
+      <button>Learn more</button>
+    </section>
+
+    <footer>
+      <div class="footer">
+        <p class="made-by">Made By</p>
+        <p class="author">Paula Hickey</p>
+      </div>
+    </footer>
+  </body>
+</html>
