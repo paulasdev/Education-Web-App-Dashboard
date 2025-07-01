@@ -77,18 +77,18 @@
         <div class="content">
           <section class="coursesList">
             <ul>
-              <li>All</li>
-              <li>Advertising</li>
-              <li>Design</li>
-              <li>Marketing</li>
-              <li>Illustration</li>
-              <li>Brand</li>
+              <li class="filter-btn" data-category="All">All</li>
+              <li class="filter-btn" data-category="Advertising">Advertising</li>
+              <li class="filter-btn" data-category="Design">Design</li>
+              <li class="filter-btn" data-category="Marketing">Marketing</li>
+              <li class="filter-btn" data-category="Illustration">Illustration</li>
+              <li class="filter-btn" data-category="Brand">Brand</li>
             </ul>
           </section>
 
           <section class="courseDescription">
             <div class="courses-card">
-              <div>
+              <div data-category="Design">
                 <p class="courses">Design</p>
                 <p class="courseTitle">UX as Art</p>
                 <p>
@@ -97,7 +97,7 @@
                 </p>
               </div>
 
-              <div>
+              <div data-category="Illustration">
                 <p class="courses">Illustration</p>
                 <p class="courseTitle">From Line to Story</p>
                 <p>
@@ -106,7 +106,7 @@
                 </p>
               </div>
 
-              <div>
+              <div data-category="Brand">
                 <p class="courses">Brand</p>
                 <p class="courseTitle">Build It Strong</p>
                 <p>
@@ -286,4 +286,5 @@
       </div>
     </footer>
   </body>
+  <script src="script.js"></script>
 </html>

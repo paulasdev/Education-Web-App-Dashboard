@@ -236,6 +236,11 @@ main {
   color: var(--white);
 }
 
+.filter-btn.active {
+  background-color: var(--dark);
+  color: var(--white);
+}
+
 /* COURSE CARDS */
 .courses {
   background-color: var(--dark-blue);
@@ -264,6 +269,11 @@ main {
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.courses-card div:hover {
+  background-color: #bcf3ff;
+  transition: background-color 0.3s ease;
 }
 
 /* TABLE */
@@ -508,7 +518,7 @@ progress::-moz-progress-bar {
 
   .navbar ul {
     flex-direction: row;
-    gap: 20px;
+    gap: 10px;
     flex-wrap: wrap;
     justify-content: center;
   }
